@@ -40,7 +40,9 @@ const Carousel = ({ slides, options }) => {
               />
               <div className="embla__slide__text">
                 <div className="text-center">
-                  <p className="text-lg">{descriptions[index].profil}</p>
+                  <p className="text-lg font-semibold">
+                    {descriptions[index].profil}
+                  </p>
                   <p>Durée de la recherche : {descriptions[index].durée}</p>
                 </div>
               </div>
