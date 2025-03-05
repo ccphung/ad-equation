@@ -15,7 +15,7 @@ function Mission() {
         </div>
 
         <div className="flex xl:flex-row flex-col justify-center align-middle items-center m-3">
-          <div className="xl:w-[600px] w-[80%] h-[80%] p-5 border b-2 border-stone-300 rounded-lg hover:border-red-500 cursor-pointer group relative ">
+          <div className="xl:w-[600px] w-[100%] h-[100%] p-5 border b-2 border-stone-300 rounded-lg hover:border-red-500 cursor-pointer group relative ">
             <img
               className="rounded-lg"
               src="/images/missions/1.jpg"
@@ -25,12 +25,12 @@ function Mission() {
               Services proposés
             </h3>
             <p>Excepteur sint occaecat cupidatat non proident</p>
-            <ArrowRightIcon className="h-6 w-6 group-hover:text-red-500 absolute right-3 bottom-3 hidden lg:block" />
+            <ArrowRightIcon className="h-6 w-6 group-hover:text-red-500 absolute right-3 bottom-3" />
           </div>
-          <div className="flex flex-col items-center ">
-            <div className="m-5 p-5 border b-2 border-stone-300 rounded-lg max-w-[250px] hover:border-red-500 cursor-pointer group relative">
+          <div className="flex flex-col items-center">
+            <div className="lg:m-5 mt-5 mb-5 p-5 border b-2 border-stone-300 rounded-lg lg:max-w-[250px] hover:border-red-500 cursor-pointer group relative">
               <img
-                className="xl:w-[220px] xl:h-[220px] w-[100%] h-[100%] rounded-lg"
+                className="xl:w-[220px] xl:h-[220px] rounded-lg"
                 src="/images/missions/2.jpg"
                 alt="computer"
               />
@@ -38,9 +38,9 @@ function Mission() {
               <p className="break-words whitespace-normal text-lg ">
                 Excepteur sint occaecat cupidatat non proident
               </p>
-              <ArrowRightIcon className="h-6 w-6 group-hover:text-red-500 absolute right-3 bottom-3 hidden lg:block" />
+              <ArrowRightIcon className="h-6 w-6 group-hover:text-red-500 absolute right-3 bottom-3" />
             </div>
-            <div className="p-5 border b-2 border-stone-300 rounded-lg max-w-[250px] hover:border-red-500 cursor-pointer group relative">
+            <div className="p-5 border b-2 border-stone-300 rounded-lg lg:max-w-[250px] hover:border-red-500 cursor-pointer group relative">
               <img
                 className="xl:w-[220px] xl:h-[220px] w-[100%] h-[100%] rounded-lg "
                 src="/images/missions/3.jpg"
@@ -50,7 +50,7 @@ function Mission() {
               <p className="break-words whitespace-normal text-lg">
                 Excepteur sint occaecat cupidatat non proident
               </p>
-              <ArrowRightIcon className="h-6 w-6 group-hover:text-red-500 absolute right-3 bottom-3 hidden lg:block" />
+              <ArrowRightIcon className="h-6 w-6 group-hover:text-red-500 absolute right-3 bottom-3" />
             </div>
           </div>
         </div>
