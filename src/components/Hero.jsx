@@ -4,7 +4,7 @@ function Hero() {
       <div className="flex justify-center flex-col mt-5 max-w-[1048px] m-4">
         <div className="flex flex-row justify-center align-middle">
           <div className="max-w-[500px] flex flex-col justify-center ">
-            <h1 className="text-center font-serif text-[2em] ">
+            <h1 className="text-center font-serif text-[2em] mb-2">
               Chasseur immobilier
             </h1>
             <h2 className="text-center">

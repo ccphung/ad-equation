@@ -1,32 +1,22 @@
+"use client";
 
-'use client'
-
-import { useState } from 'react'
-import {
-  Dialog,
-  DialogPanel,
-  PopoverGroup,
-} from '@headlessui/react'
-import {
-  Bars3Icon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline'
-
+import { useState } from "react";
+import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="bg-white">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 lg:border-b border-stone-400">
+      <nav
+        aria-label="Global"
+        className="mx-auto flex  items-center justify-between p-6 lg:px-8 lg:border-b border-stone-400"
+      >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Ad Equation</span>
-            <img
-              alt=""
-              src="/images/logo/logo.png"
-              className="h-14 w-auto"
-            />
+            <img alt="" src="/images/logo/logo.png" className="h-14 w-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -54,12 +44,19 @@ function Navbar() {
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex  lg:justify-end lg:flex-1">
-          <a href="#" className="text-sm/6 font-semibold bg-black text-gray-50 px-2 py-1">
+          <a
+            href="#"
+            className="text-sm/6 font-semibold bg-black text-gray-50 px-2 py-1"
+          >
             Contact
           </a>
         </div>
       </nav>
-      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
+      <Dialog
+        open={mobileMenuOpen}
+        onClose={setMobileMenuOpen}
+        className="lg:hidden"
+      >
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
@@ -116,8 +113,7 @@ function Navbar() {
         </DialogPanel>
       </Dialog>
     </header>
-  )
+  );
 }
 
-
-export default Navbar
+export default Navbar;
