@@ -14,22 +14,15 @@ function App() {
   return (
     <BrowserRouter>
       <Suspense fallback={<Spinner />}>
-        <div className="flex flex-col min-h-screen">
-          <Navbar />
-          <div className="flex-grow">
-            <Routes>
-              <Route path="/" element={<Homepage />} />
-              <Route path="/ma-mission" element={<Mission />} />
-              <Route
-                path="/votre-chasseur-immobilier"
-                element={<YourHunter />}
-              />
-              <Route path="/questions-frequentes" element={<Questions />} />
-              <Route path="*" element={<ErrorPage />} />
-            </Routes>
-          </div>
-          <Footer />
-        </div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/ma-mission" element={<Mission />} />
+          <Route path="/votre-chasseur-immobilier" element={<YourHunter />} />
+          <Route path="/questions-frequentes" element={<Questions />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+        <Footer />
       </Suspense>
     </BrowserRouter>
   );
