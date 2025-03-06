@@ -18,7 +18,6 @@ function Questions() {
         <div className="divide-y divide-stone-200">
                   {questions.map((question, index) => <QuestionItem key={index} question={question.question} response={question.reponse}/>)}
         </div>
-
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ function Navbar() {
             className={({ isActive }) =>
               isActive
                 ? "text-sm font-semibold text-indigo-400 border-b-2 border-indigo-400 g px-3 py-2"
-                : "text-sm font-semibold text-gray-900 gray-50 rounded-lg px-3 py-2 hover:bg-gray-50"
+                : "text-sm font-semibold text-gray-900 gray-50 px-3 py-2 hover:bg-gray-50"
             }
           >
             Accueil
@@ -75,8 +75,8 @@ function Navbar() {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "text-base font-semibold bg-indigo-400  text-white rounded-lg px-3 py-2 "
-                : "text-base font-semibold bg-gray-900 text-white rounded-lg px-3 py-2 hover:bg-gray-500"
+                ? "text-base font-semibold bg-indigo-400  text-white px-3 py-2 transition-colors duration-300"
+                : "text-base font-semibold bg-gray-900 text-white  px-3 py-2 hover:bg-gray-500 transition-colors duration-300"
             }
           >
             Contact
@@ -149,7 +149,7 @@ function Navbar() {
                   to="/contact"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-base font-semibold text-indigo-400   hover:bg-gray-50 block rounded-lg px-3 py-2 "
+                      ? "text-base font-semibold text-indigo-400 hover:bg-gray-50 block rounded-lg px-3 py-2"
                       : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
                 >

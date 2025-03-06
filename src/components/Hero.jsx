@@ -12,7 +12,7 @@ function Hero() {
               officia deserunt mollit anim id est laborum.
             </h2>
             <div className="flex justify-center mt-3">
-              <button className="bg-black text-white px-2 py-1 w-44">
+              <button className="text-base font-semibold bg-gray-900 text-white  px-3 py-2 hover:bg-gray-500 transition-colors duration-300">
                 Prendre RDV
               </button>
             </div>
