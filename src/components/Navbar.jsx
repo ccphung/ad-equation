@@ -110,6 +110,7 @@ function Navbar() {
                       ? "text-base font-semibold text-indigo-400 hover:bg-gray-50 block rounded-lg px-3 py-2"
                       : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Accueil
                 </NavLink>
@@ -120,6 +121,7 @@ function Navbar() {
                       ? "text-base font-semibold text-indigo-400  hover:bg-gray-50 block rounded-lg px-3 py-2"
                       : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Ma mission
                 </NavLink>
@@ -130,6 +132,7 @@ function Navbar() {
                       ? "text-base font-semibold text-indigo-400   hover:bg-gray-50 block rounded-lg px-3 py-2 "
                       : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Votre chasseur immobilier
                 </NavLink>
@@ -140,6 +143,7 @@ function Navbar() {
                       ? "text-base font-semibold text-indigo-400   hover:bg-gray-50 block rounded-lg px-3 py-2 "
                       : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Questions fréquentes
                 </NavLink>
@@ -152,6 +156,7 @@ function Navbar() {
                       ? "text-base font-semibold text-indigo-400 hover:bg-gray-50 block rounded-lg px-3 py-2"
                       : "text-base font-semibold text-gray-900 hover:bg-gray-50 block rounded-lg px-3 py-2"
                   }
+                  onClick={() => setMobileMenuOpen(false)}
                 >
                   Contact
                 </NavLink>
