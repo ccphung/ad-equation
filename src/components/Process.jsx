@@ -14,6 +14,8 @@ function Process() {
             desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum."
             size="12"
+            delay="1"
+            duration="2"
           />
           <ProcessItem
             file="search-icon"
@@ -21,6 +23,8 @@ function Process() {
             desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum."
             size="12"
+            delay="1.5"
+            duration="2.5"
           />
           <ProcessItem
             file="speaking-bubbles-line-icon"
@@ -28,6 +32,8 @@ function Process() {
             desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum."
             size="14"
+            delay="2"
+            duration="3"
           />
         </div>
       </div>
