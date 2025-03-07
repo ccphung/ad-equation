@@ -13,18 +13,21 @@ function Process() {
             title="Etape 1 : Rencontre"
             desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum."
+            size="12"
           />
           <ProcessItem
-            file="home-icon"
+            file="search-icon"
             title="Etape 2 : Recherche"
             desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum."
+            size="12"
           />
           <ProcessItem
             file="speaking-bubbles-line-icon"
             title="Etape 3 : Conseils"
             desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum."
+            size="14"
           />
         </div>
       </div>

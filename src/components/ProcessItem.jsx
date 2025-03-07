@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { useAnimation, useInView } from "framer-motion";
 import { motion } from "framer-motion";
 
-function ProcessItem({ file, title, desc }) {
+function ProcessItem({ file, title, desc, size }) {
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: true });
   const mainControls = useAnimation();
@@ -26,7 +26,7 @@ function ProcessItem({ file, title, desc }) {
         transition={{ delay: 0.3, duration: 0.5 }}
       >
         <img
-          className="w-16"
+          className={`h-${size}`}
           src={`/images/icons/${file}.svg`}
           alt="handshake"
         />
