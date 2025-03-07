@@ -15,7 +15,7 @@ function Process() {
               officia deserunt mollit anim id est laborum."
             size="12"
             delay="1"
-            duration="2"
+            duration="1.5"
           />
           <ProcessItem
             file="search-icon"
@@ -24,7 +24,7 @@ function Process() {
               officia deserunt mollit anim id est laborum."
             size="12"
             delay="1.5"
-            duration="2.5"
+            duration="2"
           />
           <ProcessItem
             file="speaking-bubbles-line-icon"
@@ -33,7 +33,7 @@ function Process() {
               officia deserunt mollit anim id est laborum."
             size="14"
             delay="2"
-            duration="3"
+            duration="2.5"
           />
         </div>
       </div>
