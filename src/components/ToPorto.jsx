@@ -7,7 +7,7 @@ function ToPorto() {
         <h2 className="text-center text-[1.8em] text-stone-700 font-semibold mb-3">
           Direction Porto !
         </h2>
-        <div className="mt-2 text-[1.1em] text-stone-700">
+        <div className="mt-2 text-[1.1em] xl:text-center text-stone-700">
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim id est laborum.
         </div>
