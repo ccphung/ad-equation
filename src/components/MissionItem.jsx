@@ -57,7 +57,7 @@ function MissionItem({
           />
         )}
 
-        <h3 className="xl:text-[1.5em] text-lg font-semibold text-red-300 my-2">
+        <h3 className="xl:text-[1.5em] text-lg font-semibold text-[#EF7970] my-2">
           {isServiceModalOpen && services.title}
           {isWorkModalOpen && work.title}
           {isReferencesModalOpen && references.title}
