@@ -23,7 +23,7 @@ function YourHunter() {
             </p>
             <p className="lg:text-[5em] text-[4em] text-right">&rdquo;</p>
             <p className="text-[1.2em] text-stone-700 text-right">
-              - Aline, votre chasseur immobilier
+              - Adeline, votre chasseur immobilier
             </p>
           </div>
         </div>
