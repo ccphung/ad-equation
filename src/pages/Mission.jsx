@@ -66,7 +66,7 @@ function Mission() {
                   <h3 className="xl:text-base my-1 font-semibold text-red-500 text-lg">
                     Métier
                   </h3>
-                  <p className="break-words whitespace-normal text-sm">
+                  <p className="break-words whitespace-normal xl:text-sm">
                     Excepteur sint occaecat cupidatat non proident
                   </p>
                   <ArrowRightIcon className="h-6 w-6 xl:h-5 xl:w-5 group-hover:text-stone-100 group-hover:border-2  group-hover:border-red-500 group-hover:rounded-full absolute group-hover:bg-red-500 right-3 bottom-3 transition-all duration-200" />
@@ -83,7 +83,7 @@ function Mission() {
                   <h3 className="xl:text-base mt-1 font-semibold text-red-500 text-lg">
                     Références
                   </h3>
-                  <p className="break-words whitespace-normal text-sm">
+                  <p className="break-words whitespace-normal xl:text-sm">
                     Excepteur sint occaecat cupidatat non proident
                   </p>
                   <ArrowRightIcon className="h-6 w-6 xl:h-5 xl:w-5 group-hover:text-stone-100 group-hover:border-2  group-hover:border-red-500 group-hover:rounded-full absolute group-hover:bg-red-500 right-3 bottom-3 transition-all duration-200" />

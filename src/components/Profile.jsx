@@ -4,7 +4,7 @@ function Profile() {
       <div className="max-w-[1048px] w-full">
         <div className="flex xl:flex-nowrap flex-wrap justify-around items-center">
           <img
-            className="rounded-full w-[200px]"
+            className="rounded-full w-[200px] border border-indigo-100 border-4 p-2"
             src="/images/profile/profile.jpg"
             alt="adeline"
           />
