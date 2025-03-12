@@ -1,3 +1,5 @@
+import Flag from "./Flag";
+
 function Hero() {
   return (
     <div className="flex justify-center">
@@ -12,9 +14,7 @@ function Hero() {
               officia deserunt mollit anim id est laborum.
             </h2>
             <div className="flex justify-center mt-3">
-              <button className="text-base font-semibold bg-gray-900 text-white  px-3 py-2 hover:bg-gray-500 transition-colors duration-300">
-                Prendre RDV
-              </button>
+              <Flag />
             </div>
           </div>
 
@@ -28,12 +28,12 @@ function Hero() {
         <div className="justify-center xl:justify-end flex mt-4">
           <div className="flex justify-center ">
             <img
-              className="size-72 w-auto mt-[-64px] mr-4 hidden xl:block"
+              className="size-72 w-auto mr-4 hidden xl:block"
               src="/images/hero/hero3.jpg"
               alt="living room"
             />
             <img
-              className="size-56 w-auto"
+              className="size-72  w-auto"
               src="/images/hero/hero1.jpg"
               alt="planning"
             />

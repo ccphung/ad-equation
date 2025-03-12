@@ -40,7 +40,7 @@ function Video() {
       </video>
 
       {isVisible && (
-        <div className="absolute w-8 z-20 top-[-60%] right-[35%] sm:top-[0%] sm:right-[50%]">
+        <div className="absolute w-8 z-20 top-[-28%] right-[35%] sm:top-[0%] sm:right-[50%]">
           <motion.img
             src="/images/icons/plane-icon.svg"
             alt=""
@@ -52,42 +52,6 @@ function Video() {
               visible: { opacity: 1, y: 330, x: -50, rotate: 180 },
             }}
             transition={{ duration: 3.7 }}
-          />
-          <motion.img
-            src="/images/icons/plane-icon.svg"
-            alt=""
-            ref={containerRef}
-            initial="hidden"
-            animate={mainControls}
-            variants={{
-              hidden: { opacity: 1, y: 120, x: 190, rotate: 220 },
-              visible: { opacity: 1, y: 290, x: -50, rotate: 190 },
-            }}
-            transition={{ duration: 4 }}
-          />
-          <motion.img
-            src="/images/icons/plane-icon.svg"
-            alt=""
-            ref={containerRef}
-            initial="hidden"
-            animate={mainControls}
-            variants={{
-              hidden: { opacity: 1, y: 120, x: 190, rotate: 220 },
-              visible: { opacity: 1, y: 250, x: -50, rotate: 180 },
-            }}
-            transition={{ duration: 4 }}
-          />
-          <motion.img
-            src="/images/icons/plane-icon.svg"
-            alt=""
-            ref={containerRef}
-            initial="hidden"
-            animate={mainControls}
-            variants={{
-              hidden: { opacity: 1, y: 120, x: 190, rotate: 220 },
-              visible: { opacity: 1, y: 250, x: -50, rotate: 180 },
-            }}
-            transition={{ duration: 4 }}
           />
         </div>
       )}

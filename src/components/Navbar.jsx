@@ -9,7 +9,7 @@ function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white lg:sticky lg:top-0 z-50">
+    <header className="bg-white lg:top-0 z-50">
       <nav
         aria-label="Global"
         className="mx-auto flex items-center justify-between p-6 lg:px-8 lg:border-b border-stone-400"
