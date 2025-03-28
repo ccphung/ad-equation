@@ -11,8 +11,8 @@ function ProcessItem({ file, title, desc, size }) {
         </div>
 
         <div>
-          <h5 className="font-bold text-stone-600">{title}</h5>
-          <p className="text-stone-500">{desc}</p>
+          <h5 className="font-bold text-stone-800">{title}</h5>
+          <p className="text-stone-600">{desc}</p>
         </div>
       </div>
     </div>

@@ -8,8 +8,8 @@ function ToPorto() {
           Direction Porto !
         </h2>
         <div className="mt-2 text-[1.1em] xl:text-center text-stone-700">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum.
+          Pendant que Lisbonne se fait belle, Coïmbre étudie, Braga prie et
+          Porto travaille.
         </div>
         <div className="mt-5">
           <Video />

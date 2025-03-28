@@ -7,26 +7,50 @@ function Process() {
         <h2 className="text-center text-[1.5em] text-stone-700 font-semibold">
           Comment ça marche ?
         </h2>
-        <div className="flex flex-col xl:flex-row justify-between align-middle">
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
           <ProcessItem
             file="partner-handshake-icon"
             title="Etape 1 : Rencontre"
-            desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum."
+            desc={
+              <>
+                Votre projet immobilier est unique, tout comme vos envies et
+                votre mode de vie. Dès notre premier échange, je prends le temps
+                de vous connaître pour comprendre vos attentes et vous
+                accompagner au mieux. <br />
+                Grâce à mon expertise et à ma parfaite connaissance du marché
+                immobilier portuense, je vous guide avec transparence et
+                pertinence vers les meilleures opportunités.
+              </>
+            }
             size="12"
           />
           <ProcessItem
             file="search-icon"
             title="Etape 2 : Recherche"
-            desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum."
+            desc={
+              <>
+                Dans un marché immobilier portuense en pleine effervescence, je
+                mets à profit mon réseau de professionnels et d’investisseurs
+                pour dénicher les biens qui correspondent parfaitement à vos
+                critères. <br />
+                Une fois votre dossier validé, je vous présente une sélection
+                ciblée : vous n’avez plus qu’à choisir en toute sérénité. Un
+                véritable gain de temps pour vous !
+              </>
+            }
             size="12"
           />
           <ProcessItem
             file="speaking-bubbles-line-icon"
             title="Etape 3 : Conseils"
-            desc="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum."
+            desc={
+              <>
+                Je vous apporte un conseil objectif et avisé pour vous guider
+                dans votre choix en toute confiance. <br />À chaque étape, je
+                veille à vos intérêts, jusqu’à la relecture du bail, pour vous
+                assurer une installation sereine et sécurisée.
+              </>
+            }
             size="14"
           />
         </div>

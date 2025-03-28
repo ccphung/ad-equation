@@ -1,9 +1,12 @@
+import Flag from "../components/Flag";
+
 function YourHunter() {
   return (
     <>
       <h1 className="m-5 text-center text-[2.5em] text-stone-800 font-bold mb-5">
         Votre chasseur immobilier
       </h1>
+      <Flag />
       <div className="flex  justify-center m-5">
         <div className="flex flex-col lg:flex-row max-w-[1048px]">
           <div>
