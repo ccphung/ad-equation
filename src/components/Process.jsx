@@ -17,9 +17,6 @@ function Process() {
                 votre mode de vie. Dès notre premier échange, je prends le temps
                 de vous connaître pour comprendre vos attentes et vous
                 accompagner au mieux. <br />
-                Grâce à mon expertise et à ma parfaite connaissance du marché
-                immobilier portuense, je vous guide avec transparence et
-                pertinence vers les meilleures opportunités.
               </>
             }
             size="12"
@@ -29,10 +26,6 @@ function Process() {
             title="Etape 2 : Recherche"
             desc={
               <>
-                Dans un marché immobilier portuense en pleine effervescence, je
-                mets à profit mon réseau de professionnels et d’investisseurs
-                pour dénicher les biens qui correspondent parfaitement à vos
-                critères. <br />
                 Une fois votre dossier validé, je vous présente une sélection
                 ciblée : vous n’avez plus qu’à choisir en toute sérénité. Un
                 véritable gain de temps pour vous !
